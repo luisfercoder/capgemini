@@ -1,0 +1,94 @@
+#root {
+  background-color: rgb(194, 201, 205);
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.App {
+  text-align: center;
+  background-color: #888;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+
+
+ h1{
+    font-family: serif;
+    font-size: 3.7rem;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 40px;
+ }
+h2 {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+ .div1{
+
+  background-color: rgb(243 244 246);
+  min-height: 100vh;
+  padding: 0.5rem;
+ }
+ .div2{
+
+  grid-template-columns: repeat(1, minmax(0,1fr));
+ }
+
+ .div3{
+  background-color: aliceblue;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow:  0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  margin-bottom: 0.5rem;
+ }
+
+ .pbody{
+  color: rgb(55 65 81);
+ }
+/* grid grid-cols-1
+bg-white p-6 rounded-lg shadow-md mb-7 */
