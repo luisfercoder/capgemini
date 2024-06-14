@@ -18,12 +18,12 @@ This is a React application that displays a list of users obtained from a dummy 
 $ git clone git@github.com:luisfercoder/capgemini.git
 
 # Move to directory
-$ cd ./capgemini/posts-app
+$ cd /posts-app
 
 # Run app
 $ npm install && npm run dev
 
-Enjoy app at: localhost:500
+Review app at: localhost:5173
 ```
 # Evidence
 ![alt text](image.png)
